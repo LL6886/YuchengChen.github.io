@@ -46,84 +46,84 @@
     "href": "project.html",
     "title": "Project Outcome Presentation",
     "section": "",
-    "text": "Project Leader｜ 2026.02 – 2026.06 Project Description: Combined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used: - Python - C++ - PyTorch - ROS (Robot Operating System) - MPC (Model Predictive Control) - Reinforcement Learning (Actor-Critic) - Pybind11 (C++ and Python binding library)"
+    "text": "Project Leader｜ 2026.02 – 2026.06\nProject Description:\nCombined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used:Python, C++, PyTorch, Differentiable MPC, Reinforcement Learning (PPO), Pybind11"
   },
   {
     "objectID": "project.html#actor-critic-algorithm-mpc-controller-for-uav-autonomous-flight",
     "href": "project.html#actor-critic-algorithm-mpc-controller-for-uav-autonomous-flight",
     "title": "Project Outcome Presentation",
     "section": "",
-    "text": "Project Leader｜ 2026.02 – 2026.06 Project Description: Combined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used: - Python - C++ - PyTorch - ROS (Robot Operating System) - MPC (Model Predictive Control) - Reinforcement Learning (Actor-Critic) - Pybind11 (C++ and Python binding library)"
+    "text": "Project Leader｜ 2026.02 – 2026.06\nProject Description:\nCombined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used:Python, C++, PyTorch, Differentiable MPC, Reinforcement Learning (PPO), Pybind11"
   },
   {
     "objectID": "project.html#decentralized-multi-robot-ergodic-planning-for-exploration-of-unknown-dynamic-environmentsrss-2026-in-the-pipeline",
     "href": "project.html#decentralized-multi-robot-ergodic-planning-for-exploration-of-unknown-dynamic-environmentsrss-2026-in-the-pipeline",
     "title": "Project Outcome Presentation",
     "section": "Decentralized Multi-Robot Ergodic Planning for Exploration of Unknown Dynamic Environments(RSS 2026 in the pipeline)",
-    "text": "Decentralized Multi-Robot Ergodic Planning for Exploration of Unknown Dynamic Environments(RSS 2026 in the pipeline)\nFirst Author｜2025.09 – 2026.02 Project Description: Deployed distributed multi-UAVs for cooperative search in an information map, aligning UAV trajectories with information distribution to acquire more information. Implemented frequency domain-based coverage search algorithm and ensured multi-UAV connectivity through probability-based path planning.  Technologies Used: - ROS (Robot Operating System) - iLQR Trajectory Optimization - Python/C++ - Gazebo Simulation"
+    "text": "Decentralized Multi-Robot Ergodic Planning for Exploration of Unknown Dynamic Environments(RSS 2026 in the pipeline)\nFirst Author｜2025.09 – 2026.02\nProject Description:\nDeployed distributed multi-UAVs for cooperative search in an information map, aligning UAV trajectories with information distribution to acquire more information. Implemented frequency domain-based coverage search algorithm and ensured multi-UAV connectivity through probability-based path planning.  Technologies Used:ROS, iLQR Trajectory Optimization, Python/C++, Gazebo"
   },
   {
     "objectID": "project.html#wind-disturbed-uav-target-search-delivery",
     "href": "project.html#wind-disturbed-uav-target-search-delivery",
     "title": "Project Outcome Presentation",
     "section": "Wind-Disturbed UAV Target Search & Delivery",
-    "text": "Wind-Disturbed UAV Target Search & Delivery\nProject Leader｜2024.05 – 2024.10\n  Project Description: Outdoor environment: UAV carrying a 1.5L mineral water bottle autonomously flew on an 8m80m runway, performing the following tasks: 1. UAV autonomously took off from the designated takeoff point 2. Searched for white barrels for delivery in an 85m area 30m away from the takeoff point, with three white barrels (diameters: 30, 20, 15 cm) - smaller diameter barrels scored higher 3. Reconnoitered dangerous objects in an 8*5 area 65m away from the takeoff point and remotely transmitted data for team members to fill in at the console 4. After completing the above tasks, UAV autonomously returned to the takeoff point and landed\nTechnologies Used: - C++ - Fuzzy PID Control - VFH Path Planning - Kalman Filtering"
+    "text": "Wind-Disturbed UAV Target Search & Delivery\nProject Leader｜2024.05 – 2024.10\n Project Description: Outdoor environment: UAV carrying a 1.5L mineral water bottle autonomously flew on an 8m80m runway, performing the following tasks: 1. UAV autonomously took off from the designated takeoff point.\n2. Searched for white barrels for delivery in an 85m area 30m away from the takeoff point, with three white barrels (diameters: 30, 20, 15 cm) - smaller diameter barrels scored higher.\n3. Reconnoitered dangerous objects in an 8*5 area 65m away from the takeoff point and remotely transmitted data for team members to fill in at the console.\n4. After completing the above tasks, UAV autonomously returned to the takeoff point and landed.\nTechnologies Used:C++, Fuzzy PID Control, VFH Path Planning, Kalman Filtering"
   },
   {
     "objectID": "project.html#rd-university-intelligent-robot-creativity-competition---uav-group-a-competition",
     "href": "project.html#rd-university-intelligent-robot-creativity-competition---uav-group-a-competition",
     "title": "Project Outcome Presentation",
     "section": "3rd University Intelligent Robot Creativity Competition - UAV Group A Competition",
-    "text": "3rd University Intelligent Robot Creativity Competition - UAV Group A Competition\nProject Leader｜ 2024.05 – 2024.8\n\n\n\n\n\nUAV Competition\n\n\n\nProject Description:\nParticipated in the UAV Group A Competition, focusing on autonomous flight tasks with obstacle avoidance and target recognition. Developed robust flight control algorithms for UAVs in dynamic environments and implemented real-time obstacle detection and avoidance using sensor fusion.\nTechnologies Used:\n- ROS (Robot Operating System)\n- Computer Vision\n- Sensor Fusion\n- Autonomous Flight Control\n- C++"
+    "text": "3rd University Intelligent Robot Creativity Competition - UAV Group A Competition\nProject Leader｜ 2024.05 – 2024.8\n\n\n\n\n\nUAV Competition\n\n\n\nProject Description:\nParticipated in the UAV Group A Competition, focusing on autonomous flight tasks with obstacle avoidance and target recognition. Developed robust flight control algorithms for UAVs in dynamic environments and implemented real-time obstacle detection and avoidance using sensor fusion.\nTechnologies Used:ROS, Computer Vision, C++, VFH Path Planning"
   },
   {
     "objectID": "project.html#obstacle-forest-express-delivery-uav",
     "href": "project.html#obstacle-forest-express-delivery-uav",
     "title": "Project Outcome Presentation",
     "section": "Obstacle Forest Express Delivery UAV",
-    "text": "Obstacle Forest Express Delivery UAV\nProject Leader｜2023.10 – 2024.05\n Project Description: Indoor environment: UAV carrying 3×100g express boxes performed tasks in a 10×10m area, with the following specific tasks: 1. Autonomously took off from the takeoff point 2. Searched for 5 existing targets in a 10×8.5m area for delivery, with delivery scores calculated based on delivery accuracy and target weights, while avoiding dense obstacles in the area 3. After completing task 2, proceeded to the entrance of a 10×1.5m corridor, traversed the corridor to reach the landing point for accurate landing, with two 80cm-wide narrow passages in the corridor\nTechnologies Used: - ROS - FAST-LIO - Ego-Planner - MPC Controller - C++"
+    "text": "Obstacle Forest Express Delivery UAV\nProject Leader｜2023.10 – 2024.05\n Project Description: Indoor environment: UAV carrying 3×100g express boxes performed tasks in a 10×10m area, with the following specific tasks:\n1. Autonomously took off from the takeoff point.\n2. Searched for 5 existing targets in a 10×8.5m area for delivery, with delivery scores calculated based on delivery accuracy and target weights, while avoiding dense obstacles in the area.\n3. After completing task 2, proceeded to the entrance of a 10×1.5m corridor, traversed the corridor to reach the landing point for accurate landing, with two 80cm-wide narrow passages in the corridor.\nTechnologies Used:ROS, FAST-LIO, Ego-Planner, MPC Controller, C++"
   },
   {
     "objectID": "project-zh.html",
     "href": "project-zh.html",
     "title": "项目成果展示",
     "section": "",
-    "text": "项目负责人｜ 2026.02 – 2026.06 项目描述： 结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n使用技术： - Python - C++ - PyTorch - MPC（模型预测控制） - 强化学习（PPO） - Pybind11（C++与Python绑定库）"
+    "text": "项目负责人｜ 2026.02 – 2026.06\n项目描述：\n结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n技术栈：Python, C++, PyTorch, 可微分MPC, 强化学习（PPO）, Pybind11"
   },
   {
     "objectID": "project-zh.html#actor-critic算法mpc控制器实现无人机自主飞行",
     "href": "project-zh.html#actor-critic算法mpc控制器实现无人机自主飞行",
     "title": "项目成果展示",
     "section": "",
-    "text": "项目负责人｜ 2026.02 – 2026.06 项目描述： 结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n使用技术： - Python - C++ - PyTorch - MPC（模型预测控制） - 强化学习（PPO） - Pybind11（C++与Python绑定库）"
+    "text": "项目负责人｜ 2026.02 – 2026.06\n项目描述：\n结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n技术栈：Python, C++, PyTorch, 可微分MPC, 强化学习（PPO）, Pybind11"
   },
   {
     "objectID": "project-zh.html#未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投",
     "href": "project-zh.html#未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投",
     "title": "项目成果展示",
     "section": "未知动态环境下的去中心化多机器人遍历规划探索(RSS 2026在投)",
-    "text": "未知动态环境下的去中心化多机器人遍历规划探索(RSS 2026在投)\n第一作者｜2025.09 – 2026.02 项目描述： 部署分布式多无人机在一个信息地图中进行协同搜索，使无人轨迹分布对齐地图的信息分布，以获取更多信息。实现了基于频域分析的覆盖搜索算法，并通过基于概率的路径规划确保多机连通性。  使用技术： - ROS（机器人操作系统） - iLQR 轨迹优化 - Python/C++ - Gazebo 仿真"
+    "text": "未知动态环境下的去中心化多机器人遍历规划探索(RSS 2026在投)\n第一作者｜2025.09 – 2026.02\n项目描述：\n部署分布式多无人机在一个信息地图中进行协同搜索，使无人轨迹分布对齐地图的信息分布，以获取更多信息。实现了基于频域分析的覆盖搜索算法，并通过基于概率的路径规划确保多机连通性。  技术栈：ROS, iLQR 轨迹优化, Python/C++, Gazebo"
   },
   {
     "objectID": "project-zh.html#风扰动下无人机目标搜索投放",
     "href": "project-zh.html#风扰动下无人机目标搜索投放",
     "title": "项目成果展示",
     "section": "风扰动下无人机目标搜索+投放",
-    "text": "风扰动下无人机目标搜索+投放\n项目负责人｜2024.05 – 2024.10\n  项目描述： 室外环境下，使无人机载重（一个1.5L矿泉水瓶）在8m80m的跑道上自主飞行，实现以下任务： 1. 无人机在指定起飞点自主起飞 2. 在距离起飞点30m远的85m区域内寻找白桶进行投放，白桶共三个（直径分别为30, 20,15），直径越小分值越高 3. 在距离起飞点65m远的8*5区域内侦查危险物，并远程传送数据，由参赛人员在控制台填写 4. 完成以上任务后无人机自主飞回起飞点并降落\n使用技术： - C++ - 模糊 PID 控制 - VFH 路径规划 - 卡尔曼滤波"
+    "text": "风扰动下无人机目标搜索+投放\n项目负责人｜2024.05 – 2024.10\n 项目描述： 室外环境下，使无人机载重（一个1.5L矿泉水瓶）在8m80m的跑道上自主飞行，实现以下任务： 1. 无人机在指定起飞点自主起飞。\n2. 在距离起飞点30m远的85m区域内寻找白桶进行投放，白桶共三个（直径分别为30, 20,15），直径越小分值越高。\n3. 在距离起飞点65m远的8*5区域内侦查危险物，并远程传送数据，由参赛人员在控制台填写。\n4. 完成以上任务后无人机自主飞回起飞点并降落。\n技术栈：C++, 模糊 PID 控制, VFH 路径规划, 卡尔曼滤波"
   },
   {
     "objectID": "project-zh.html#第三届高校智能机器人创意大赛---无人机-a-组竞赛",
     "href": "project-zh.html#第三届高校智能机器人创意大赛---无人机-a-组竞赛",
     "title": "项目成果展示",
     "section": "第三届高校智能机器人创意大赛 - 无人机 A 组竞赛",
-    "text": "第三届高校智能机器人创意大赛 - 无人机 A 组竞赛\n项目负责人｜ 2024.05 – 2024.8\n\n\n\n\n\n无人机竞赛\n\n\n\n项目描述：\n参与无人机 A 组竞赛，专注于具有避障和目标识别功能的自主飞行任务。开发了适用于动态环境的无人机鲁棒飞行控制算法，并利用传感器融合实现实时障碍物检测与避障。\n使用技术：\n- ROS（机器人操作系统）\n- 计算机视觉\n- 传感器融合\n- 自主飞行控制\n- C++"
+    "text": "第三届高校智能机器人创意大赛 - 无人机 A 组竞赛\n项目负责人｜ 2024.05 – 2024.8\n\n\n\n\n\n无人机竞赛\n\n\n\n项目描述：\n参与无人机 A 组竞赛，专注于具有避障和目标识别功能的自主飞行任务。开发了适用于动态环境的无人机鲁棒飞行控制算法，并利用传感器融合实现实时障碍物检测与避障。\n技术栈：ROS, 计算机视觉, C++, VFH 路径规划"
   },
   {
     "objectID": "project-zh.html#障碍物森林中的快递无人机",
     "href": "project-zh.html#障碍物森林中的快递无人机",
     "title": "项目成果展示",
     "section": "障碍物森林中的快递无人机",
-    "text": "障碍物森林中的快递无人机\n项目负责人｜2023.10 – 2024.05\n 项目描述： 室内环境下，使无人机载重（3个100g快递盒）在1010m的区域执行任务，具体任务如下： 1. 在起飞点自主起飞 2. 在108.5m的区域中寻找存在的5个标靶进行投放，投放得分由投放准确度与标靶自身权重计算，同时注意躲避该区域内的密集障碍物 3. 执行完任务2后，前往10*1.5m的长廊入口，穿越长廊抵达降落点准确降落，其中长廊中存在两个80cm宽的窄道\n使用技术： - ROS - FAST-LIO - Ego-Planner - MPC 控制器 - C++"
+    "text": "障碍物森林中的快递无人机\n项目负责人｜2023.10 – 2024.05\n 项目描述： 室内环境下，使无人机载重（3个100g快递盒）在1010m的区域执行任务，具体任务如下：\n1. 在起飞点自主起飞。\n2. 在108.5m的区域中寻找存在的5个标靶进行投放，投放得分由投放准确度与标靶自身权重计算，同时注意躲避该区域内的密集障碍物。\n3. 执行完任务2后，前往10*1.5m的长廊入口，穿越长廊抵达降落点准确降落，其中长廊中存在两个80cm宽的窄道。\n技术栈：ROS, FAST-LIO, Ego-Planner, MPC 控制器, C++"
   },
   {
     "objectID": "readme.html",
