@@ -46,14 +46,14 @@
     "href": "project.html",
     "title": "Project Outcome Presentation",
     "section": "",
-    "text": "Project Leader｜ 2026.02 – 2026.06\nProject Description:\nCombined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used:Python, C++, PyTorch, Differentiable MPC, Reinforcement Learning (PPO), Pybind11"
+    "text": "Project Leader｜ 2026.02 – 2026.06  Project Description:\nCombined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used:Python, C++, PyTorch, Differentiable MPC, Reinforcement Learning (PPO), Pybind11"
   },
   {
     "objectID": "project.html#adaptive-mpc-controller-based-on-reinforcement-learning-ppo",
     "href": "project.html#adaptive-mpc-controller-based-on-reinforcement-learning-ppo",
     "title": "Project Outcome Presentation",
     "section": "",
-    "text": "Project Leader｜ 2026.02 – 2026.06\nProject Description:\nCombined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used:Python, C++, PyTorch, Differentiable MPC, Reinforcement Learning (PPO), Pybind11"
+    "text": "Project Leader｜ 2026.02 – 2026.06  Project Description:\nCombined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system’s ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC’s optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python) using Pybind11 library, improving training and model inference efficiency.\nTechnologies Used:Python, C++, PyTorch, Differentiable MPC, Reinforcement Learning (PPO), Pybind11"
   },
   {
     "objectID": "project.html#decentralized-multi-robot-ergodic-planning-for-exploration-of-unknown-dynamic-environmentsrss-2026-in-the-pipeline",
@@ -88,14 +88,14 @@
     "href": "project-zh.html",
     "title": "项目成果展示",
     "section": "",
-    "text": "项目负责人｜ 2026.02 – 2026.06\n项目描述：\n结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n技术栈：Python, C++, PyTorch, 可微分MPC, 强化学习（PPO）, Pybind11"
+    "text": "项目负责人｜ 2026.02 – 2026.06\n 项目描述：\n结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n技术栈：Python, C++, PyTorch, 可微分MPC, 强化学习（PPO）, Pybind11"
   },
   {
     "objectID": "project-zh.html#基于强化学习ppo的自适应mpc控制器",
     "href": "project-zh.html#基于强化学习ppo的自适应mpc控制器",
     "title": "项目成果展示",
     "section": "",
-    "text": "项目负责人｜ 2026.02 – 2026.06\n项目描述：\n结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n技术栈：Python, C++, PyTorch, 可微分MPC, 强化学习（PPO）, Pybind11"
+    "text": "项目负责人｜ 2026.02 – 2026.06\n 项目描述：\n结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。通过Pybind11库，使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。\n技术栈：Python, C++, PyTorch, 可微分MPC, 强化学习（PPO）, Pybind11"
   },
   {
     "objectID": "project-zh.html#未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投",
