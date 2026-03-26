@@ -66,7 +66,7 @@ Born in December 2003, undergraduate student in Mechanical Design, Manufacturing
   
 ## Project Experience
 ### Adaptive MPC Controller Based on Reinforcement Learning (PPO)
-**Project Leader**｜2026.02 – 2026.06  
+**Project Leader**｜2025.12 – now  
 **Project Description**：Combine reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information  
 **Key Contributions**：  
   1. **Algorithm Integration**：Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system's ability to adapt to environmental changes  
