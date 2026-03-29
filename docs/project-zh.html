@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#基于强化学习ppo的自适应mpc控制器" id="toc-基于强化学习ppo的自适应mpc控制器" class="nav-link active" data-scroll-target="#基于强化学习ppo的自适应mpc控制器">基于强化学习(PPO)的自适应MPC控制器</a></li>
-  <li><a href="#未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投" id="toc-未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投" class="nav-link" data-scroll-target="#未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投">未知动态环境下的去中心化多机器人遍历规划探索(RSS 2026在投)</a></li>
+  <li><a href="#未知动态环境下的分布式多机器人遍历规划探索rss-2026在投" id="toc-未知动态环境下的分布式多机器人遍历规划探索rss-2026在投" class="nav-link" data-scroll-target="#未知动态环境下的分布式多机器人遍历规划探索rss-2026在投">未知动态环境下的分布式多机器人遍历规划探索(RSS 2026在投)</a></li>
   <li><a href="#风扰动下无人机目标搜索投放" id="toc-风扰动下无人机目标搜索投放" class="nav-link" data-scroll-target="#风扰动下无人机目标搜索投放">风扰动下无人机目标搜索+投放</a></li>
   <li><a href="#第三届高校智能机器人创意大赛---无人机-a-组竞赛" id="toc-第三届高校智能机器人创意大赛---无人机-a-组竞赛" class="nav-link" data-scroll-target="#第三届高校智能机器人创意大赛---无人机-a-组竞赛">第三届高校智能机器人创意大赛 - 无人机 A 组竞赛</a></li>
   <li><a href="#障碍物森林中的快递无人机" id="toc-障碍物森林中的快递无人机" class="nav-link" data-scroll-target="#障碍物森林中的快递无人机">障碍物森林中的快递无人机</a></li>
@@ -178,14 +178,28 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="基于强化学习ppo的自适应mpc控制器">基于强化学习(PPO)的自适应MPC控制器</h2>
 <p><strong>项目负责人</strong>｜ 2025.12 – 至今<br>
 <img src="images/acmpc.gif" class="img-fluid" alt="数值仿真演示"> <strong>项目描述：</strong><br>
-结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。</p>
+结合强化学习与模型预测控制技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景。</p>
+<ol type="1">
+<li>将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。<br>
+</li>
+<li>采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。<br>
+</li>
+<li>使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。</li>
+</ol>
 <p><strong>技术栈：</strong>Python, C++, PyTorch, 可微分MPC, 强化学习(PPO)</p>
 </section>
-<section id="未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投" class="level2 card fade-in delay-2">
-<h2 class="anchored" data-anchor-id="未知动态环境下的去中心化多机器人遍历规划探索rss-2026在投">未知动态环境下的去中心化多机器人遍历规划探索(RSS 2026在投)</h2>
+<section id="未知动态环境下的分布式多机器人遍历规划探索rss-2026在投" class="level2 card fade-in delay-2">
+<h2 class="anchored" data-anchor-id="未知动态环境下的分布式多机器人遍历规划探索rss-2026在投">未知动态环境下的分布式多机器人遍历规划探索(RSS 2026在投)</h2>
 <p><strong>第一作者</strong>｜2025.09 – 2026.02<br>
+<img src="images/iDMED.gif" class="img-fluid" alt="数值仿真演示"><br>
 <strong>项目描述：</strong><br>
-部署分布式多无人机在一个信息地图中进行协同搜索，使无人轨迹分布对齐地图的信息分布，以获取更多信息。实现了基于频域分析的覆盖搜索算法，并通过基于概率的路径规划确保多机连通性。 <img src="images/iDMED.gif" class="img-fluid" alt="数值仿真演示"> <strong>技术栈：</strong>ROS, iLQR 轨迹优化, Python/C++, Gazebo</p>
+部署分布式多机器人的协同搜索: 在遍历搜索的框架下，针对未知动态环境与分布式机器人两个要点提出统一的框架。其中融合了:<br>
+- 贝叶斯滤波器<br>
+- 通信转发机制<br>
+- 基于真值与贝叶斯估计的信念信息<br>
+- 包含时间信息的衰减遍历指标<br>
+- 概率连通性<br>
+- iLQR求解器</p>
 </section>
 <section id="风扰动下无人机目标搜索投放" class="level2 card fade-in delay-3">
 <h2 class="anchored" data-anchor-id="风扰动下无人机目标搜索投放">风扰动下无人机目标搜索+投放</h2>
@@ -209,8 +223,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div><div class="column" style="width: 48%; padding-left: 20px;">
 <p><strong>项目描述：</strong><br>
-参与无人机 A 组竞赛，专注于具有避障和目标识别功能的自主飞行任务。开发了适用于动态环境的无人机鲁棒飞行控制算法，并利用传感器融合实现实时障碍物检测与避障。</p>
-<p><strong>技术栈：</strong>ROS, 计算机视觉, C++, VFH 路径规划</p>
+在5x5m的场地中，随机摆放两个静态障碍物，无人机需自主完成以下内容：<br>
+1. 穿越场地上直径为一米的圆环<br>
+2. 抵达终点区域后识别标靶并降落<br>
+3. 飞行过程中不得避免与障碍物的碰撞<br>
+其中: 规定使用统一无人机平台(搭载双目鱼眼相机以及二维激光雷达)<br>
+<strong>技术栈：</strong><br>
+- ROS, C++<br>
+- VFH 路径规划: 基于2D雷达信息提供避碰路径</p>
 </div>
 </div>
 </section>

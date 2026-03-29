@@ -6,7 +6,10 @@ title: "Project Outcome Presentation"
 **Project Leader**｜ 2025.12 – now 
 ![Numerical Simulation](images/acmpc.gif) 
 **Project Description:**  
-Combined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system's ability to adapt to environmental changes. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure. Adopted differentiable MPC framework, incorporating MPC's optimization process into the reinforcement learning training pipeline. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python), improving training and model inference efficiency.
+Combined reinforcement learning with model predictive control technology to enhance UAV flight robustness in complex environments, especially for scenarios with disturbed positioning information.   
+1. Integrated Actor-Critic reinforcement learning algorithm with MPC controller, using reinforcement learning to adaptively adjust the cost function of MPC, enhancing the system's ability to adapt to environmental changes.  
+2. Conducted reinforcement learning training using PPO algorithm, constructing Actor-Critic models with MLP network structure.   
+3. Implemented differentiable MPC controller in C++ and integrated it into reinforcement learning training (Python), improving training and model inference efficiency.
 
 **Technologies Used:**Python, C++, PyTorch, Differentiable MPC, Reinforcement Learning (PPO)
 :::
@@ -14,10 +17,15 @@ Combined reinforcement learning with model predictive control technology to enha
 ::: {.card .fade-in .delay-2}
 ## Decentralized Multi-Robot Ergodic Planning for Exploration of Unknown Dynamic Environments(RSS 2026 in the pipeline)
 **First Author**｜2025.09 – 2026.02  
+![Numerical Simulation](images/iDMED.gif)  
 **Project Description:**  
-Deployed distributed multi-UAVs for cooperative search in an information map, aligning UAV trajectories with information distribution to acquire more information. Implemented frequency domain-based coverage search algorithm and ensured multi-UAV connectivity through probability-based path planning.
-![Numerical Simulation](images/iDMED.gif)
-**Technologies Used:**ROS, iLQR Trajectory Optimization, Python/C++, Gazebo
+Deploying collaborative search of distributed robots: Within the framework of exhaustive search, a unified framework is proposed for addressing the two key points of unknown dynamic environment and distributed robots. It integrates:  
+- Bayesian filter    
+- Communication forwarding mechanism  
+- Belief information based on truth and Bayesian estimation  
+- Decaying ergodic metric with time information  
+- Probabilistic connectivity
+- iLQR solver
 
 :::
 
@@ -31,7 +39,7 @@ Outdoor environment: UAV carrying a 1.5L mineral water bottle autonomously flew 
 2. Searched for white barrels for delivery in an 8*5m area 30m away from the takeoff point, with three white barrels (diameters: 30, 20, 15 cm) - smaller diameter barrels scored higher.  
 3. Reconnoitered dangerous objects in an 8*5 area 65m away from the takeoff point and remotely transmitted data for team members to fill in at the console.  
 4. After completing the above tasks, UAV autonomously returned to the takeoff point and landed.  
-
+Among them: It is stipulated to use a unified unmanned aerial vehicle platform (equipped with dual-lens fisheye cameras and two-dimensional laser radar)  
 **Technologies Used:**C++, Fuzzy PID Control, VFH Path Planning, Kalman Filtering
 :::
 
@@ -45,9 +53,14 @@ Outdoor environment: UAV carrying a 1.5L mineral water bottle autonomously flew 
 :::
 ::: { .column style="width: 48%; padding-left: 20px;" }
 **Project Description:**  
-Participated in the UAV Group A Competition, focusing on autonomous flight tasks with obstacle avoidance and target recognition. Developed robust flight control algorithms for UAVs in dynamic environments and implemented real-time obstacle detection and avoidance using sensor fusion.
+In a 5x5-meter area, two static obstacles are randomly placed. The drone is required to complete the following tasks independently:
+1. Pass through a circular ring with a diameter of one meter on the field.
+2. After reaching the destination area, identify the target and land.
+3. During the flight, it must not avoid colliding with the obstacles.
 
-**Technologies Used:**ROS, Computer Vision, C++, VFH Path Planning
+**Technologies Used:**  
+- ROS, C++  
+- VFH Path Planning: Based on 2D radar information, provide a collision avoidance path  
 :::
 :::
 :::
