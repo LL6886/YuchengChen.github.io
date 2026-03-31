@@ -58,12 +58,13 @@ Born in December 2003, undergraduate student in Mechanical Design, Manufacturing
 ### 2025.12.10 - Present
 - **Robosense** | Reinforcement Learning Algorithm Intern  
 - **Project**: Tennis Ball-catching Cart Reinforcement Learning Model Training and Deployment
-- **Main Work**:
-  1. **Reinforcement Learning Model Training**: Implemented PPO algorithm based on rsl_rl reinforcement learning library in Isaac Gym training environment to train the cart for tennis ball-catching automatic control
-  2. **Cross-environment Model Migration**: Conducted Sim2Sim Gap research, migrating models from Isaac Gym training environment to Mujoco simulation environment to verify model performance in different simulation environments
-  3. **Virtual to Real Environment Transfer**: Conducted Real2Sim Gap research, deploying models from virtual training environment to real physical environment for verification
-  4. **Reward Function Design**: Designed reward functions based on real-world environment feedback to guide models in learning control strategies
-  
+- **Main Work**:  
+  1. **Training of Reinforcement Learning Model**: In the Isaac Gym training environment, the PPO algorithm was implemented based on the rsl_rl reinforcement learning library to train the car to complete the automatic control task of tennis reception.  
+  2. **Research on Sim2Sim Gap**: The model was transferred from the Isaac Gym training environment to the MujocoLab simulation environment to verify its performance in different simulation environments and achieve cross-environment generalization ability.  
+  3. **Research on Real2Sim Gap**: The model was deployed from the virtual training environment to the real physical environment and verified to validate its performance in the real environment.  
+  4. **Design of Tennis Simulator**: During the training process, the dynamics model of the tennis was independently designed in the simulation environment, and an optimizer was designed to optimize the parameters based on the real trajectory data.  
+ 
+   
 ## Project Experience
 ### Adaptive MPC Controller Based on Reinforcement Learning (PPO)
 **Project Leader**｜2025.12 – now  

@@ -231,10 +231,12 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>项目描述</strong>：网球接打小车的强化学习模型训练与部署</li>
 <li><strong>主要工作</strong>：
 <ol type="1">
-<li><strong>强化学习模型训练</strong>：在Isaac Gym训练环境下，基于rsl_rl强化学习库实现PPO算法，训练小车完成网球接打自动控制任务。</li>
-<li><strong>Sim2Sim Gap研究</strong>：将模型从Isaac Gym训练环境迁移到Mujoco仿真环境，验证模型在不同仿真环境下的表现，实现跨环境泛化能力。</li>
-<li><strong>Real2Sim Gap研究</strong>：将模型从虚拟训练环境部署到真实物理环境并进行验证，验证模型在真实环境下的表现。</li>
-<li><strong>奖励函数设计</strong>：基于真实环境反馈设计奖励函数，引导模型学习控制策略，提升小车的接球成功率。</li>
+<li><strong>强化学习模型训练</strong>：在Isaac Gym训练环境下，基于rsl_rl强化学习库实现PPO算法，训练小车完成网球接打自动控制任务。<br>
+</li>
+<li><strong>Sim2Sim Gap研究</strong>：将模型从Isaac Gym训练环境迁移到MujocoLab仿真环境，验证模型在不同仿真环境下的表现，实现跨环境泛化能力。</li>
+<li><strong>Real2Sim Gap研究</strong>：将模型从虚拟训练环境部署到真实物理环境并进行验证，验证模型在真实环境下的表现。<br>
+</li>
+<li><strong>网球仿真器设计</strong>：训练过程中独立于仿真环境，自行设计网球的动力学模型，并设计优化器结合真实轨迹数据优化其中参数。</li>
 </ol></li>
 </ul>
 </section>
@@ -268,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>项目负责人</strong>｜2023.10 – 2024.05<br>
 <strong>项目描述</strong>：室内环境下，使无人机载重（3个100g快递盒）在10<em>10m的区域执行任务，具体任务如下：<br>
 1. 在起飞点自主起飞<br>
-2. 在10</em>8.5m的区域中寻找存在的5个标靶进行投放，投放得分由投放准确度与标靶自身权重计算，同时注意躲避该区域内的密集障碍物<br>
+2. 在10 </em> 8.5m的区域中寻找存在的5个标靶进行投放，投放得分由投放准确度与标靶自身权重计算，同时注意躲避该区域内的密集障碍物<br>
 3. 执行完任务2后，前往10*1.5m的长廊入口，穿越长廊抵达降落点准确降落，其中长廊中存在两个80cm宽的窄道</p>
 <p><strong>本人负责任务</strong>：<br>
 1. <strong>Ubuntu下编写基于ROS的⻜⾏代码(C++)</strong>：执⾏障碍森林、狭窄⾛廊环境下避障任务及投放任务<br>
