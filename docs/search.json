@@ -18,7 +18,7 @@
     "href": "resume-zh.html#实习经历",
     "title": "中文简历",
     "section": "实习经历",
-    "text": "实习经历\n\n速腾聚创(Robosense)\n\n强化学习算法实习生 | 2025.12.10 - 至今\n\n项目描述：网球接打小车的强化学习模型训练与部署\n主要工作：\n\n强化学习模型训练：在Isaac Gym训练环境下，基于rsl_rl强化学习库实现PPO算法，训练小车完成网球接打自动控制任务。\n\nSim2Sim Gap研究：将模型从Isaac Gym训练环境迁移到MujocoLab仿真环境，验证模型在不同仿真环境下的表现，实现跨环境泛化能力。\nReal2Sim Gap研究：将模型从虚拟训练环境部署到真实物理环境并进行验证，验证模型在真实环境下的表现。\n\n网球仿真器设计：训练过程中独立于仿真环境，自行设计网球的动力学模型，并设计优化器结合真实轨迹数据优化其中参数。"
+    "text": "实习经历\n\n速腾聚创(Robosense)\n\n强化学习算法实习生 | 2025.12.10 - 至今\n\n项目描述：网球接打小车的强化学习模型训练与部署\n主要工作：\n\n强化学习模型训练：在Isaac Gym训练环境下，基于rsl_rl强化学习库实现PPO算法，训练小车完成网球接打自动控制任务。\n\n仿真环境迁移: 将原先基于Isaac Gym的仿真环境迁移到更高保真的MujocoLab(兼顾了Mujoco的高保真与GPU并行计算的特点)\nReal2Sim Gap研究：将模型从虚拟训练环境部署到真实物理环境并进行验证，验证模型在真实环境下的表现。\n\n网球仿真器设计：训练过程中独立于仿真环境，自行设计网球的动力学模型，并设计优化器结合真实轨迹数据优化其中参数。"
   },
   {
     "objectID": "resume-zh.html#主要项目经历",
@@ -158,7 +158,7 @@
     "href": "resume.html#internship",
     "title": "Yucheng Chen",
     "section": "Internship",
-    "text": "Internship\n\n2025.12.10 - Present\n\nRobosense | Reinforcement Learning Algorithm Intern\n\nProject: Tennis Ball-catching Cart Reinforcement Learning Model Training and Deployment\nMain Work:\n\nTraining of Reinforcement Learning Model: In the Isaac Gym training environment, the PPO algorithm was implemented based on the rsl_rl reinforcement learning library to train the car to complete the automatic control task of tennis reception.\n\nResearch on Sim2Sim Gap: The model was transferred from the Isaac Gym training environment to the MujocoLab simulation environment to verify its performance in different simulation environments and achieve cross-environment generalization ability.\n\nResearch on Real2Sim Gap: The model was deployed from the virtual training environment to the real physical environment and verified to validate its performance in the real environment.\n\nDesign of Tennis Simulator: During the training process, the dynamics model of the tennis was independently designed in the simulation environment, and an optimizer was designed to optimize the parameters based on the real trajectory data."
+    "text": "Internship\n\n2025.12.10 - Present\n\nRobosense | Reinforcement Learning Algorithm Intern\n\nProject: Tennis Ball-catching Cart Reinforcement Learning Model Training and Deployment\nMain Work:\n\nTraining of Reinforcement Learning Model: In the Isaac Gym training environment, the PPO algorithm was implemented based on the rsl_rl reinforcement learning library to train the car to complete the automatic control task of tennis reception.\n\nSimulation Environment Migration: Transferring the original simulation environment based on Isaac Gym to the more high-fidelity MujocoLab (taking into account the high-fidelity feature of Mujoco and the GPU parallel computing capability)\nResearch on Real2Sim Gap: The model was deployed from the virtual training environment to the real physical environment and verified to validate its performance in the real environment.\n\nDesign of Tennis Simulator: During the training process, the dynamics model of the tennis was independently designed in the simulation environment, and an optimizer was designed to optimize the parameters based on the real trajectory data."
   },
   {
     "objectID": "resume.html#project-experience",
