@@ -1,15 +1,28 @@
 ---
-title: "中文简历"
-editor: 
-  markdown: 
-    wrap: 72
+title: "个人简历"
+image: images/yuchengchen_2025.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 12em
+  image-shape: round
+  links:
+    - icon: mailbox
+      text: "Yucheng__Chen@163.com"
+      href: "mailto:Yucheng__Chen@163.com"
+    - icon: phone
+      text: "18759135762"
+      href: "tel:18759135762"
+    - icon: brands zhihu
+      text: "知乎"
+      href: "https://www.zhihu.com/people/chen-yu-cheng-67-47"  
 ---
 
-::: {.profile-card .fade-in}
+::: {#hero-heading .profile-card .fade-in}
 
-# 陈宇城
+# 自我介绍
 
-陈宇城，男，2003年12月出生，华中科技大学机械科学与工程学院机械设计制造及其自动化（机器人方向）本科在读，预计2026年6月毕业。已保送至上海交通大学控制科学与工程专业攻读硕士研究生，将于2026年9月入学。
+陈宇城，男，2003年12月出生，华中科技大学机械科学与工程学院机械设计制造及其自动化（机器人方向）本科在读，预计2026年6月毕业。已保送至上海交通大学控制科学与工程专业攻读硕士研究生，将于2026年9月入学。目前的研究方向为: 最优控制, 路径规划, 强化学习。已有一篇关于规划控制的RSS在投论文
 
 :::
 
@@ -95,10 +108,10 @@ editor:
 - 强化学习
 
 ### 专业技能
-- **机器人操作系统**：熟练使用 ROS，掌握 Ubuntu 命令行及 Gazebo 仿真  
+- **机器人操作系统**：熟练使用 Ubuntu系统以及机器人操作系统ROS1, ROS2  
+- **仿真平台**：熟练使用主流仿真平台，例如Gazebo, Isaac Gym, Mujoco    
 - **强化学习算法**：熟悉 Actor-Critic、TRPO、PPO、SAC、DDPG 等  
-- **机器人学基础**：掌握 IK（逆运动学）、旋转矩阵、四元数等  
-- **最优控制方法**：熟悉 LQR、MP、DDP(iLQR) 等控制器
+- **最优控制方法**：熟悉 LQR、MPC、DDP(iLQR) 等控制器
 :::
 
 ::: {.card .fade-in .delay-4}

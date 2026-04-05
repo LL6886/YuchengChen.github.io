@@ -1,5 +1,5 @@
 ---
-title: "Yucheng Chen"
+title: "Resume"
 image: images/yuchengchen_2025.jpg
 about:
   id: hero-heading
@@ -20,10 +20,9 @@ about:
 
 ::: {#hero-heading .profile-card .fade-in}
 
-# Yucheng Chen
+# Self-introduction
 
-Born in December 2003, undergraduate student in Mechanical Design, Manufacturing and Automation (Robotics Direction) at Huazhong University of Science and Technology, expected to graduate in June 2026. Admitted to Shanghai Jiao Tong University for master's degree in Control Science and Engineering starting from September 2026.
-
+Born in December 2003, undergraduate student in Mechanical Design, Manufacturing and Automation (Robotics Direction) at Huazhong University of Science and Technology, expected to graduate in June 2026. Admitted to Shanghai Jiao Tong University for master's degree in Control Science and Engineering starting from September 2026. The current research directions are: optimal control, path planning, and reinforcement learning. There is already an RSS on planning control under review for publication.
 :::
 
 ::: {.card .fade-in .delay-1}
@@ -108,7 +107,8 @@ Born in December 2003, undergraduate student in Mechanical Design, Manufacturing
 - Reinforcement Learning
 
 ### Professional Skills
-- **Robot Operating System**: Proficient in ROS, familiar with Ubuntu command line and Gazebo simulation  
+- **Robot Operating System**: Proficient in using the Ubuntu system and the robot operating systems ROS1 and ROS2  
+- **Simulation Platform**: Skilled in using popular simulation platforms, such as Gazebo, Isaac Gym, and Mujoco  
 - **Reinforcement Learning Algorithms**: Familiar with Actor-Critic, TRPO, PPO, SAC, DDPG, etc.  
 - **Robotics Fundamentals**: Mastered IK (Inverse Kinematics), rotation matrices, quaternions, etc.  
 - **Optimal Control Methods**: Familiar with LQR, MPC, iLQR, DDP controllers
