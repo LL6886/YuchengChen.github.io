@@ -149,10 +149,20 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#个人简介" id="toc-个人简介" class="nav-link" data-scroll-target="#个人简介">个人简介</a></li>
   <li><a href="#教育背景" id="toc-教育背景" class="nav-link" data-scroll-target="#教育背景">教育背景</a></li>
   </ul></li>
+  <li><a href="#实习经历" id="toc-实习经历" class="nav-link" data-scroll-target="#实习经历">实习经历</a>
+  <ul class="collapse">
+  <li><a href="#深圳市速腾聚创科技有限公司robosense" id="toc-深圳市速腾聚创科技有限公司robosense" class="nav-link" data-scroll-target="#深圳市速腾聚创科技有限公司robosense">深圳市速腾聚创科技有限公司(Robosense)</a></li>
+  </ul></li>
+  <li><a href="#主要项目经历" id="toc-主要项目经历" class="nav-link" data-scroll-target="#主要项目经历">主要项目经历</a>
+  <ul class="collapse">
+  <li><a href="#基于强化学习ppo的自适应mpc控制器" id="toc-基于强化学习ppo的自适应mpc控制器" class="nav-link" data-scroll-target="#基于强化学习ppo的自适应mpc控制器">基于强化学习(PPO)的自适应MPC控制器</a></li>
+  <li><a href="#风扰动下无人机目标搜索投放" id="toc-风扰动下无人机目标搜索投放" class="nav-link" data-scroll-target="#风扰动下无人机目标搜索投放">风扰动下无人机目标搜索+投放</a></li>
+  <li><a href="#障碍物森林中的快递无人机" id="toc-障碍物森林中的快递无人机" class="nav-link" data-scroll-target="#障碍物森林中的快递无人机">障碍物森林中的快递无人机</a></li>
+  </ul></li>
   <li><a href="#研究兴趣与专业技能" id="toc-研究兴趣与专业技能" class="nav-link" data-scroll-target="#研究兴趣与专业技能">研究兴趣与专业技能</a>
   <ul class="collapse">
-  <li><a href="#研究兴趣" id="toc-研究兴趣" class="nav-link" data-scroll-target="#研究兴趣">研究兴趣</a></li>
   <li><a href="#专业技能" id="toc-专业技能" class="nav-link" data-scroll-target="#专业技能">专业技能</a></li>
+  <li><a href="#研究兴趣" id="toc-研究兴趣" class="nav-link" data-scroll-target="#研究兴趣">研究兴趣</a></li>
   </ul></li>
   <li><a href="#奖项荣誉" id="toc-奖项荣誉" class="nav-link" data-scroll-target="#奖项荣誉">奖项荣誉</a></li>
   </ul>
@@ -229,15 +239,15 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><strong>2026.09 – 待定</strong><br>
 <strong>上海交通大学（保研待入学）</strong><br>
-控制科学与工程（硕士）</li>
+控制科学与工程（硕士）<br>
+一篇RSS在投(一作): Decentralized Multi-Robot Ergodic Planning for Exploration of Unknown Dynamic Environments</li>
 </ul>
 </section>
 </section>
-<div class="card fade-in delay-2">
-<section id="实习经历" class="level2">
+<section id="实习经历" class="level2 card fade-in delay-2">
 <h2 data-anchor-id="实习经历">实习经历</h2>
-<section id="速腾聚创robosense" class="level3">
-<h3 data-anchor-id="速腾聚创robosense">速腾聚创(Robosense)</h3>
+<section id="深圳市速腾聚创科技有限公司robosense" class="level3">
+<h3 data-anchor-id="深圳市速腾聚创科技有限公司robosense">深圳市速腾聚创科技有限公司(Robosense)</h3>
 <ul>
 <li><strong>强化学习算法实习生</strong> | 2025.12.10 - 2026.4.10</li>
 <li><strong>项目描述</strong>：网球接打小车的强化学习模型训练与部署</li>
@@ -248,18 +258,20 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>仿真环境迁移</strong>: 将原先基于Isaac Gym的仿真环境迁移到更高保真的MujocoLab(兼顾了Mujoco的高保真与GPU并行计算的特点)</li>
 <li><strong>Sim2Real Gap研究</strong>：将模型从虚拟训练环境部署到真实物理环境并进行验证，验证模型在真实环境下的表现。<br>
 </li>
-<li><strong>网球仿真器设计</strong>：训练过程中独立于仿真环境，自行设计网球的动力学模型，并设计优化器结合真实轨迹数据优化其中参数。</li>
+<li><strong>网球轨迹仿真器设计</strong>：训练过程中独立于仿真环境，自行设计网球的动力学模型，并设计优化器结合真实轨迹数据优化其中参数。<br>
+</li>
 </ol></li>
 </ul>
 </section>
 </section>
-<section id="主要项目经历" class="level2">
+<section id="主要项目经历" class="level2 card fade-in delay-4">
 <h2 data-anchor-id="主要项目经历">主要项目经历</h2>
 <section id="基于强化学习ppo的自适应mpc控制器" class="level3">
 <h3 data-anchor-id="基于强化学习ppo的自适应mpc控制器">基于强化学习(PPO)的自适应MPC控制器</h3>
-<p><strong>项目负责人</strong>｜ 2025.12 – 2026.03 <strong>项目描述</strong>：结合强化学习与模型预测控制(MPC)技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景<br>
+<p><strong>项目负责人</strong>｜ 2025.12 – 2026.03<br>
+<strong>项目描述</strong>：结合强化学习与模型预测控制(MPC)技术，提升无人机在复杂环境下的飞行鲁棒性，尤其针对定位信息受干扰的场景<br>
 <strong>本人负责任务</strong>：<br>
-1. <strong>算法融合</strong>：将Actor-Critic强化学习算法与MPC控制器相结合，利用强化学习自适应调整MPC的代价函数，增强系统对环境变化的适应能力。<br>
+1. <strong>算法融合</strong>：将Actor-Critic网络与MPC控制器相结合，利用学习的方式自适应调整MPC的代价函数，增强系统对环境变化的适应能力。<br>
 2. <strong>模型训练</strong>：采用PPO算法并使用MLP网络结构构建Actor-Critic模型，进行强化学习训练。<br>
 3. <strong>可微分MPC</strong>：采用可微分MPC的框架，将MPC的优化过程纳入强化学习的训练流程中。<br>
 4. <strong>C++与python融合</strong>：使用C++实现可微分MPC控制器加入到强化学习的训练中(python)，提高训练与模型推理效率。</p>
@@ -290,17 +302,8 @@ ul.task-list li input[type="checkbox"] {
 3. <strong>编写MPC控制器(C++)</strong>：依据目标点与约束条件在线计算对⽆⼈机加速度的控制，以跟踪全局路径</p>
 </section>
 </section>
-</div>
-<section id="研究兴趣与专业技能" class="level2 card fade-in delay-3">
+<section id="研究兴趣与专业技能" class="level2 card fade-in delay-4">
 <h2 data-anchor-id="研究兴趣与专业技能">研究兴趣与专业技能</h2>
-<section id="研究兴趣" class="level3">
-<h3 data-anchor-id="研究兴趣">研究兴趣</h3>
-<ul>
-<li>最优控制</li>
-<li>路径规划</li>
-<li>强化学习</li>
-</ul>
-</section>
 <section id="专业技能" class="level3">
 <h3 data-anchor-id="专业技能">专业技能</h3>
 <ul>
@@ -308,9 +311,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><strong>仿真平台</strong>：熟练使用主流仿真平台，例如Gazebo, Isaac Gym, Mujoco<br>
 </li>
-<li><strong>强化学习算法</strong>：熟悉 Actor-Critic、TRPO、PPO、SAC、DDPG 等<br>
+<li><strong>强化学习算法</strong>：熟悉 Actor-Critic、TRPO、PPO、SAC 等<br>
 </li>
 <li><strong>最优控制方法</strong>：熟悉 LQR、MPC、DDP(iLQR) 等控制器</li>
+</ul>
+</section>
+<section id="研究兴趣" class="level3">
+<h3 data-anchor-id="研究兴趣">研究兴趣</h3>
+<ul>
+<li>最优控制</li>
+<li>路径规划</li>
+<li>强化学习</li>
 </ul>
 </section>
 </section>

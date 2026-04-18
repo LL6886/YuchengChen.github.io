@@ -101,17 +101,20 @@ Born in December 2003, undergraduate student in Mechanical Design, Manufacturing
 
 ::: {.card .fade-in .delay-3}
 ## Research Interests & Professional Skills
+
+### Professional Skills
+- **Robot Operating System**: Proficient in using the Ubuntu system and the robot operating systems ROS1 and ROS2  
+- **Simulation Platform**: Skilled in using popular simulation platforms, such as Gazebo, Isaac Gym, and Mujoco  
+- **Reinforcement Learning Algorithms**: Familiar with Actor-Critic, TRPO, PPO, SAC, etc.  
+- **Robotics Fundamentals**: Mastered IK (Inverse Kinematics), rotation matrices, quaternions, etc.  
+- **Optimal Control Methods**: Familiar with LQR, MPC, iLQR, DDP controllers
+
 ### Research Interests
 - Optimal Control
 - Path Planning
 - Reinforcement Learning
 
-### Professional Skills
-- **Robot Operating System**: Proficient in using the Ubuntu system and the robot operating systems ROS1 and ROS2  
-- **Simulation Platform**: Skilled in using popular simulation platforms, such as Gazebo, Isaac Gym, and Mujoco  
-- **Reinforcement Learning Algorithms**: Familiar with Actor-Critic, TRPO, PPO, SAC, DDPG, etc.  
-- **Robotics Fundamentals**: Mastered IK (Inverse Kinematics), rotation matrices, quaternions, etc.  
-- **Optimal Control Methods**: Familiar with LQR, MPC, iLQR, DDP controllers
+
 :::
 
 ::: {.card .fade-in .delay-4}
