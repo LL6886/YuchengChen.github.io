@@ -1,54 +1,44 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
-  page-navigation: true
-  title: "Yucheng Chen"
-  site-url: https://wangyicyc.github.io
+  title: "Sihui Lv"
+  site-url: https://LL6886.github.io
   favicon: images/site-logo.png
-  repo-url: https://wangyicyc.github.io/YuchengChen.github.io/
-  repo-actions: [edit, issue]
+  # 建议修改为源码仓库地址
+  repo-url: https://github.com/LL6886/SihuiLv.github.io
+  repo-actions: [issue] # 单页项目 edit 意义不大，保留 issue 即可
   
   page-footer:
     left: |
-      © 2026 Yucheng Chen<br>
+      © 2026 Sihui Lv<br>
       All rights reserved
     right: |
-      Made with [Quarto](https://quarto.org/)<br>
+      Made with [Quarto](https://quarto.org/)
     
   navbar: 
     background: "#4361ee"
-    search: true
+    search: false # 单页面网站通常不需要搜索功能，建议关闭
     logo: images/site-logo.png
-    logo-alt: "Yucheng Chen"
+    logo-alt: "Sihui Lv"
     right: 
+      # 既然是单页，这里可以直接指向 index.html 里的某个锚点，或者直接指向文件
       - text: "Resume"
-        href: resume.qmd
-        id: "resume-link"
-      - text: "Project"
-        href: project.qmd
-        id: "project-link"
+        href: index.qmd 
       - text: "Language"
         id: "language-link"
-        menu:
-          - text: "English"
-            href: resume.qmd
-            id: "english-option"
-          - text: "中文"
-            href: resume-zh.qmd
-            id: "chinese-option"
       - icon: github
-        href: https://github.com
+        href: https://github.com/LL6886 # 建议写上具体的 GitHub 个人主页
       - icon: envelope
-        href: mailto:wangyi1113795069@163.com
+        href: mailto:1285372969@qq.com
 
 format:
   html:
     theme: styles.scss
-    toc: true            # 启用目录
-    toc-position: right  # 将目录放置在页面的右侧
-    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
+    toc: true
+    toc-position: right
+    toc-depth: 3
     include-in-header:
       - text: |
           <script src="scripts/language-switcher.js"></script>
